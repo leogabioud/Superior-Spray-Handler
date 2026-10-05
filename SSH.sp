@@ -217,7 +217,6 @@ public Action:CheckAllTraces(Handle:hTimer) {
 			continue;
 		}
 		
-		// 1. Proyectamos el RayTracing en la línea de visión exacta (hacia adelante)
 		if (!GetClientEyeEndLocation(client, vecPos)) {
 			iSprayTarget[client] = -1;
 			iCenterMessageCount[client] = 0;
